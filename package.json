@@ -1,0 +1,14 @@
+{
+  "nex": [
+    "repository",
+    "engines",
+    "globalDependencies",
+    "linkDependencies"
+  ]
+}
+{
+  "scripts": {
+    "preinstall": "nex do",
+    "pretest": "nex do engines"
+  }
+}
